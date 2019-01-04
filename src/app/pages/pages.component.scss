@@ -1,0 +1,25 @@
+.sidebar{
+  width: 250px;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ul{
+    li a{
+      color: white;
+      display: block;
+      padding: 8px 16px;
+    }
+  }
+}
+
+.wrapper{
+  position: absolute;
+  width: 100%;
+}
+.main-content{
+  flex: 1
+}
